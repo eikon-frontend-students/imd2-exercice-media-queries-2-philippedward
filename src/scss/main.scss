@@ -346,3 +346,35 @@ footer {
   align-items: center;
   gap: 20px;
 }
+
+.navigation {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .navigation {
+    display: contents;
+    display: flex;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .branding {
+    text-align: left;
+  }
+
+  .footer-contact {
+    text-align: left;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: end;
+  }
+
+  .footer-title {
+    font-size: 100px;
+  }
+}
